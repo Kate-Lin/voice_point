@@ -1,0 +1,4 @@
+<launch>
+<node name = "voice_point" pkg = "riddle" type = "Voice_point.py" output = "screen" />
+<node name = "sydw" pkg = "riddle" type = "sydw.py" output = "screen" />
+</launch>
